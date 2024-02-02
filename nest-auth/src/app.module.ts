@@ -5,6 +5,6 @@ import { MongooseModule } from '@nestjs/mongoose';
 @Module({
   imports: [
     AuthModule,
-    MongooseModule.forRoot('mongodb+srv://outgive:v2.h_8SkPAbvqVw@cluster0.qdci0ge.mongodb.net/out_crm_auth')],
+    MongooseModule.forRoot('mongodb://localhost:27017/nest-auth')],
 })
 export class AppModule {}
